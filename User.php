@@ -1,9 +1,9 @@
 <?php
 class User {
-    private $dbHost     = "148.66.146.8";
-    private $dbUsername = "vasu";
-    private $dbPassword = "vasu1234";
-    private $dbName     = "vasu_fb_database";
+    private $dbHost     = "xxxxxxx";
+    private $dbUsername = "xxxxxxx";
+    private $dbPassword = "xxxxxxx";
+    private $dbName     = "xxxxxxx";
     private $userTbl    = 'users';
     
     function __construct(){
