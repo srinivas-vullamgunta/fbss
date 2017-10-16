@@ -4,7 +4,7 @@ require_once 'User.php';
 function parse_signed_request($signed_request) {
   list($encoded_sig, $payload) = explode('.', $signed_request, 2); 
 
-  $secret = "07f4734f7cb53d97ea29cf4fb7e59248"; // Use your app secret here
+  $secret = "xxxxxxxxxxxxxxxxxxx"; // Use your app secret here
 
   // decode the data
   $sig = base64_url_decode($encoded_sig);
