@@ -7,8 +7,8 @@ if(!session_id()){
 // Include the autoloader provided in the SDK
 require_once 'Facebook/autoload.php'; 
 $fb = new Facebook\Facebook([
-  'app_id' => '131790190807618', // Replace {app-id} with your app id
-  'app_secret' => '07f4734f7cb53d97ea29cf4fb7e59248',
+  'app_id' => 'xxxxxxxxxx', // Replace {app-id} with your app id
+  'app_secret' => 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
   'default_graph_version' => 'v2.10',
   ]);
 
