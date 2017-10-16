@@ -1,0 +1,17 @@
+ [16-Oct-2017 12:19:54 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: Error validating access token: The user has not authorized application 131790190807618. in /home/vasucpadmin/public_html/Facebook/Exceptions/FacebookResponseException.php:89
+Stack trace:
+#0 /home/vasucpadmin/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/vasucpadmin/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/vasucpadmin/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/vasucpadmin/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/vasucpadmin/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/vasucpadmin/public_html/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest in /home/vasucpadmin/public_html/Facebook/Exceptions/FacebookResponseException.php on line 89
+[16-Oct-2017 12:19:58 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: Error validating access token: The user has not authorized application 131790190807618. in /home/vasucpadmin/public_html/Facebook/Exceptions/FacebookResponseException.php:89
+Stack trace:
+#0 /home/vasucpadmin/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/vasucpadmin/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/vasucpadmin/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/vasucpadmin/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/vasucpadmin/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/vasucpadmin/public_html/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest in /home/vasucpadmin/public_html/Facebook/Exceptions/FacebookResponseException.php on line 89
+[16-Oct-2017 12:24:31 UTC] PHP Notice:  Undefined variable: userData in /home/vasucpadmin/public_html/User.php on line 50
