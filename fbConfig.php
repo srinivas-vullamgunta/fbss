@@ -14,9 +14,9 @@ use Facebook\Exceptions\FacebookSDKException;
 /*
  * Configuration and setup Facebook SDK
  */
-$appId         = '131790190807618'; //Facebook App ID
-$appSecret     = '07f4734f7cb53d97ea29cf4fb7e59248'; //Facebook App Secret
-$redirectURL   = 'http://www.cherrylucky.com/'; //Callback URL
+$appId         = 'xxxxxxxxxxxxxxx'; //Facebook App ID
+$appSecret     = 'xxxxxxxxxxxxxxxxxxxxxx'; //Facebook App Secret
+$redirectURL   = 'http://www.abcd.com/'; //Callback URL
 $fbPermissions = array('email');  //Optional permissions
 
 $fb = new Facebook(array(
@@ -33,7 +33,7 @@ try {
     if(isset($_SESSION['facebook_access_token'])){
 			$accessToken = $_SESSION['facebook_access_token'];
     }else{
-			$accessToken =  $helper->getAccessToken('http://www.cherrylucky.com/');
+			$accessToken =  $helper->getAccessToken('http://www.abcd.com/');
     }
 } catch(FacebookResponseException $e) {
 	echo 'Graph returned an error: ' . $e->getMessage();
