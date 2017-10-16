@@ -20,10 +20,10 @@ function parse_signed_request($signed_request) {
     // Initialize User class
     $user = new User();
 	// User removed app from his facebook, so system deauthorizes this user by is_active=false 
-	$userData = $user->inactivefbDeauthorizedUsers($data['usr_id']); 
+	$userData = $user->inactivefbDeauthorizedUsers($data['user_id']); 
 	
 	$fopen = fopen('logs.html', 'a');
-	fwrite($fopen,$data['usr_id'].'<Br>');
+	fwrite($fopen,$data['user_id'].'<Br>');
 	fclose($fopen); 
   
   //return $data;
